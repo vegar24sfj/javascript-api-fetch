@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#content .movie-card {
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+    /* border: 5px solid orange; */
+}
+
+#content .movie-card img {
+    height: 350px;
+    /* width: 100%; */
+    object-fit: cover;
+}
